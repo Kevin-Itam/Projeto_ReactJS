@@ -8,7 +8,7 @@ function Home() {
         <section className={styles.home_container}>
             <h1>Bem-Vindo <span>Costs</span></h1>
             <p>Aqui você pode gerenciar seus projetos e custos.</p>
-            <LinkB to="/newprojects" text="Criar Projetos"/>
+            <LinkB to="./NewProject" text="Criar Projetos"/>
             <img src={savings} alt="Costs" />
         </section>
     );
